@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'henriette-black';
+    src: url('fonts/henriette-black-webfont.woff2') format('woff2'),
+         url('fonts/henriette-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: 10px;
+	color: black;
+}
+
+header {	
+	background-color: white;	
+	height: 220px;
+	position: fixed;
+	opacity: 1;
+	min-height: 220px;
+	width: 100%;
+	color: #ffffff;
+}
+
+header h1 {
+	font: 50px 'Abril Fatface';
+	font-weight: bold;
+	text-align: center;
+	position: fixed;
+	top: 40px;
+	height: 40px;
+	letter-spacing: 2px;
+}
+
+header h2 {
+	color: #686868;
+	font: 10px Avenir;	
+	text-align: center;
+	position: fixed;
+	top: 100px;
+	width: 100%;
+	height: 20px;
+}
+
+nav {
+	list-style-type: none;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	margin:0;
+	text-align:center;
+	top: 160px;
+	width: 75%;
+	right: 12.5%;
+	left: 12.5%;
+	height: 40px;
+}
+
+#menu-item li:nth-child(n) {
+	display: inline-block;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#menu-item a:nth-child(n) {
+	font: bold 1rem Avenir;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#menu-item a:hover {
+	color: red;
+}
+
+main {
+	background: #f6f7f6;
+	min-height: 1000px;
+	box-shadow: 0 0 10px #979797;
+	top: 220px;
+	position: relative;
+	z-index: -1;
+	margin-bottom: 220px;
+	padding: 50px;
+}
+
+footer {	
+	background-color: #686868;	
+	height: 25%;
+	min-height: 25%;
+	position: fixed;
+	top: 75%;
+	z-index: -2;
+}
+
+footer p {
+	font: italic 13px Avenir, Georgia;
+	color: #ffffff;
+	text-align: center;
+	top: 60%;
+	position: relative;
+}
+
+
+img {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
